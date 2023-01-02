@@ -18,6 +18,21 @@
 <p>Al poner ese comando nos dara el ejercicio como completado y deberia quedar asi.</p>
 <img src=C:\Users\ivanr\Downloads\gitres.png>
 
+<h2>Simulando la colaboracion</h2>
+<p>En este ejercicio se usan varios comandos, pero el principal es <b>git fakeTeamwork</b>. Este se encarga de mover el trabajo realizado por otros, o por ti mismo, en un repositorio remoto al principal.</p>
+
+<h3>Ejercicio que nos dan</h3>
+<img src=C:\Users\ivanr\Downloads\gitejer2.png>
+
+<h3>Solucion que nos piden</h3>
+<img src=C:\Users\ivanr\Downloads\gitejer3.png>
+
+<p>Para comenzar pirmero tendras que clonar el repositorio que te dan para crear uno aparte, para ello empleamos <b>git clone</b>.</p>
+<p>Una vez clonado, tendramos que hacer dos <b>git fakeTeamwork</b> para crear los dos commits externos en el repositorio clonado.</p>
+<p>A continuacion haces un commit en el repositorio original para que eso siga siendo en principal commit.</p>
+<p>Por ultimo, hacemos un <b>git pull</b> para trar los commits del otro repositorio al principal pero por otra rama diferente del commit que acabamos de hacer.</p>
+<p>Como resultado, el ultimo commit de la rama clonada y el ultimo de la rama principal se acabaran juntando en un nuevo commit que sera el commit que contenga toda la informacion.</p>
+
 
 
 </body>
